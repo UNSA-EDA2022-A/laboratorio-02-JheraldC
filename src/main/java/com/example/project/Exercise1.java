@@ -14,8 +14,7 @@ public class Exercise1 {
 	}
 
 	public boolean esCuadradoPerfecto(int numero) {
-		//Usando la recursividad indirecta para resolver el ejercicio
-		return checkCuadradoPerfecto(1, numero);
+		return checkCuadradoPerfecto(1, numero); //Usando la recursividad indirecta para resolver el ejercicio
 	}
 	
 	public boolean checkCuadradoPerfecto(int aux, int num) { //Necesitare del auxiliar en los parametros y empezará en 1, el n es el numero ingresado
